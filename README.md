@@ -69,10 +69,10 @@ DB NAME = databaseName
 - click on Export on the menu bar, select the custom option and ensure format is SQL
 - in the Tables section uncheck everything in the data column (we just want the structure)
 -- make sure 'Save output to a file' is selected
--- in the Object Creation Options I turn off everything except the AUTO_INCREMENT and 'Enclose table and column names in backquotes' options (don't know if this really matters, the only one I could being a problem is Events since you may not have permission to create them on the server)
+-- in the Object Creation Options I turn off everything except the AUTO_INCREMENT and 'Enclose table and column names in backquotes' options (don't know if this really matters, the only one that could be a problem is Events since you may not have permission to create them on the server)
 -- click Go
 
 You should now have a .sql file that creates your tables, indexes and any constraints you set up.  
 
-Copy this file into the root of your project (and add to git repo)) 
+Copy this file into the root of your project (and add to git repo)
 
