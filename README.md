@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/dr-matt-smith/travisCItest_silexDatabaseExample.svg?branch=master)](https://travis-ci.org/dr-matt-smith/travisCItest_silexDatabaseExample)
 
 # travisCItest_silexDatabaseExample
 
